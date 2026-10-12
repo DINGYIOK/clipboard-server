@@ -1,0 +1,15 @@
+[project]
+name = "clipboard-admin"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14.8"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "fastadmin[fastapi,tortoise-orm]>=0.10.0",
+    "fastapi>=0.143.0",
+    "pyotp>=2.10.0",
+    "python-dotenv>=1.2.4",
+    "tortoise-orm[asyncpg]>=1.1.8",
+    "uvicorn>=0.54.0",
+]
